@@ -38,4 +38,4 @@ DEFAULT_PAGINATION = False
 # RELATIVE_URLS = True
 
 # Dev conf FIXME
-SITEURL = "http://localhost:8000"
+# SITEURL = "http://localhost:8000"
