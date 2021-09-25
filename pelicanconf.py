@@ -3,7 +3,12 @@
 
 AUTHOR = "Gregg Judge"
 SITENAME = "Test Twisted Trac Wiki"
-SITEURL = "https://judgegregg.github.io/peliwiki"
+# Prod
+SITEURL = "https://twisted.org"
+# Preprod
+#SITEURL = "https://judgegregg.github.io/peliwiki"
+# Dev
+#SITEURL = "http://localhost:8000"
 
 PATH = "content"
 
@@ -36,6 +41,3 @@ DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
-
-# Dev conf FIXME
-# SITEURL = "http://localhost:8000"
