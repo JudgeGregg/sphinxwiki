@@ -5,3 +5,6 @@ Anchors links: lower case only
 
 Special Cases:
 _EXTRAS_REQUIRE TwistedDevelopment.rst
+links in ** or *?
+
+Check Titles Weight
