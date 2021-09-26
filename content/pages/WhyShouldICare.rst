@@ -10,12 +10,12 @@ For a simple program that only is concerned about doing exactly one thing at one
 Note: Getting/sending information from/to a server while displaying and repainting a GUI is actually two things.
 
 Python
-======
+------
 
 Python is well known in the computer science industry for promoting readability, increased maintainability, and high levels of productivity.  For more information see `python.org <http://www.python.org>`_.
 
 Scalable
-========
+--------
 
 On the other hand, if you put in a little more work upfront, things like scaling becomes a much easier issue.  
 
