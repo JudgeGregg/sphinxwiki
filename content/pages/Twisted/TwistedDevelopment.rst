@@ -15,7 +15,7 @@ Twisted uses the `The Ultimate Quality Development System <{filename}/pages/Ulti
 If you want to become a developer, it is important to understand that all your contributions (including those initial patches you send to the bug tracker) will have to be licenced under the `MIT License <https://opensource.org/licenses/mit-license.php>`_.
 
 Getting the source code
-=======================
+-----------------------
 
 You can get Twisted's source code here:
 
@@ -37,7 +37,7 @@ NOTE for experienced Git users: for historical reasons, Twisted's main branch is
 .. _creatingyourworkenvironment:
 
 Creating your work environment
-==============================
+------------------------------
 
 Twisted development does not enforce any specific work/build environment.
 
@@ -45,7 +45,7 @@ Twisted uses Tox for managing the environment used in the continuous testing sys
 
 
 With Tox
-========
+~~~~~~~~
 
 You will need Tox version at least 2.4. (On Ubuntu 16.04 you have 2.3.1).
 
@@ -68,7 +68,7 @@ You can also use tox just to initialize the dev virtual environment and then man
 
 
 Without Tox
-===========
+~~~~~~~~~~~
 
 For faster runs, you can skip tox and build a custom working environment.
 
@@ -108,13 +108,13 @@ Here is an example of creating an environment using virtualenv.
   check-manifest --ignore "docs/_build*,docs/historic/*,admin*,bin/admin*,twisted/topfiles/*.Old"
 
 Submitting a Patch
-==================
+------------------
 
 Here's a quick step-by-step guide to getting from an idea for an improvement to Twisted to something that we can integrate.  First, I'll explain just the mechanics of getting your code into review, not what the code itself should do.  If you actually want us to be able to use your code, you will also want to read the section below on getting your patch accepted, too!
 
 #. For the patch you are submitting, make sure that a `ticket exists using the "search" field above <https://twistedmatrix.com/trac/report>`_, and Google for the patch which you are submitting.
 
-   #. If you can't find one, file a new ticket using the `new ticket <https://twistedmatrix.com/trac/newticket>`_ link above. See: `Tickets Management <{filename}/pages/Twisted/TwistedDevelopment.rst#tickets-management>`_.
+   #. If you can't find one, file a new ticket using the `new ticket <https://twistedmatrix.com/trac/newticket>`_ link above. See: `Tickets Management <{filename}/pages/Twisted/TwistedDevelopment.rst#tickets-management>`__.
 
 #. Create a `fork on GitHub <https://help.github.com/articles/fork-a-repo/>`_ and clone it (see `Getting the source code <#getting-the-source-code>`_ above).
 
@@ -164,7 +164,7 @@ Here's a quick step-by-step guide to getting from an idea for an improvement to 
 
 
 Getting Your Patch Accepted
-===========================
+---------------------------
 
 If you are interested in contributing to Twisted for the first time, consider working on an existing ticket rather than contributing a new feature.  Fixes for existing problems or implementations of already-requested features will generally take priority over new ideas.  Consider discussing the work you want to do with `other Twisted developers first <{filename}/pages/Twisted/TwistedCommunity.rst>`_.
 
@@ -177,12 +177,11 @@ Make sure there are no errors when running these tox environments (or equivalent
 
 Make sure that you have written unit tests and docstrings for all code which has changed in your patch.  It works best if you use test-driven development to write your patch initially, and write your tests before your code.  (Believe me, if you write your tests after you write your code, we ''will'' know.  It's more obvious than you think.)
 
-Run the full test suite ''before'' submitting your patch, and fix any problems you discover.  If a reviewer notices failing tests, they may not give your code a deep look, and you may have to wait longer for a second review. See: `Tools for development <#tools-for-development>`_.
+Run the full test suite ''before'' submitting your patch, and fix any problems you discover.  If a reviewer notices failing tests, they may not give your code a deep look, and you may have to wait longer for a second review. See: `Tools for development <#tools-for-development>`__.
 
 Some users may discover that their system is unusual and Twisted's test suite **does not pass** "out of the box".  If this is the case, just make sure that the **same** tests are failing for you in a pristine checkout of trunk and with your changes applied.  Then, in addition to submitting your patch, please let us know about the problem with the test suite!
 
-
-Tools For Development
+Tools for Development
 =====================
 
 There are a few useful tools for developing Twisted. Some of them are included with Twisted, some are third-party dependencies.
