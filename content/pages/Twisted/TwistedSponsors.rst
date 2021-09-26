@@ -18,9 +18,6 @@ Silver Sidewinder
 
   <p><a href="https://www.variomedia.de/" rel="nofollow"><img src="/images/sponsors-logos/Variomedia-rescaled.png"></a></p>
 
-  <p><a href="https://www.atlassian.com/" rel="nofollow"><img src="/images/sponsors-logos/Atlassian-hipchat-logo.png"></a></p>
-
-
 Copperhead
 ==========
 
