@@ -80,24 +80,24 @@ The most recent version of source code in the repository should always be workin
 Here are some of its features.
 
 Keep ``trunk`` Working
-======================
+----------------------
 
 The most recent revision of a piece of software, that is, ``trunk@HEAD`` should always work.  Any new developer should be able to check out the most recent version and immediately start working, without worrying that the build is broken this week.
 
 With branch-based development, features are only merged to trunk after they have been tested and reviewed by at least one other developer.
 
 Switch Developers Mid-Feature
-=============================
+-----------------------------
 
 If a developer gets stuck because it turns out that part of a feature is outside their expertise, they can easily put code that they know is broken into a branch, then indicate that branch to another developer and reassign the ticket, without breaking trunk.
 
 Provide Useful Progress Information to Management
-=================================================
+-------------------------------------------------
 
 Branches directly correspond to user-facing tasks.  A quick look at the list of branches should indicate to managers what is actually going on.  If there are a lot of branches (more than twice the number of developers, let's say), that means that the team's efforts are getting diffuse and they need to focus more and get branches merged.  If branches are being turned over quickly, it means that tasks are being completed quickly.
 
 Mechanism for Code Review
-=========================
+-------------------------
 
 Usually `CodeReview <{filename}/pages/CodeReview.rst>`_ is done by module, and only after the fact.  While this practice is useful, it only raises problems that already exist, it doesn't prevent them.
 
@@ -106,7 +106,7 @@ By reviewing each branch as a change, rather than a module, problems are spotted
 This is also a low-friction review process.  Rather than submitting a branch for review and discussing it interactively, a developer may accept a ticket, start a branch, commit a few times, finish, put the ticket into review, move on to an unrelated branch, repeat, put that branch into review, then check their assigned tickets at the end of the day and merge any branches which have been accepted before finishing for the day.
 
 Generate a Meaningful Changelog
-===============================
+-------------------------------
 
 Often, source control logs are riddled with nonsensical, tiny changes.  "twiddled whitespace", "added a few docstrings", etc.  Because it's good to commit frequently to avoid losing too much work or generating monolithic changes, this is hard to avoid.  Commit messages generate a bottleneck to getting work into the repository, which is bad.
 
@@ -119,24 +119,24 @@ Tangentially related, commit messages for merges should include at least three p
 * The tickets which the branch resolves or relates to.
 
 Revert Useful Units
-===================
+-------------------
 
 If something ''does'' break trunk, you can revert it with one command, rather than sifting through piles of related commit messages and trying to assemble a useful revert.  It's "revision 1234", not "revision 1232, 1237, 1239, 1246, and I think maybe 1255 too, you should run the tests both ways".
 
 Merge When You're Merging, Not When You're Hacking
-==================================================
+--------------------------------------------------
 
 If you are working directly in trunk, any update may cause conflicts which you have to immediately resolve before you can continue working.  With branches, a smaller number of developers can work on a branch, knowing that their changes won't conflict, and update regularly.
 
 That means you are never interrupted with an unpleasant required merge.  Your code is always in the repository ''before'' you worry about merging it with other people's changes, so there is no concern that although your code was working before you were ready to commit, the merge went badly and you never committed in a working state.
 
 Develop on a Preferred Platform, Test on Another, Disturbing No-one
-===================================================================
+-------------------------------------------------------------------
 
 If a developer prefers to code in a Unix environment but needs to add a feature for Windows, they can create a branch, happily work on it under Unix, commit the changes (to the branch), go to a Windows machine and update the branch, test it, repeat etc. This allows one developer to work in private on several machines, using the revision control system in a disciplined and effective way that precludes accidents passing patches or updates between machines, and which has no impact on other developers.
 
 Cover yourself
-==============
+--------------
 
 If adding a feature or fixing a bug takes a significant amount of time, at some point you're going to want to make sure your changes so far
 are backed up. If you're working on the trunk you clearly can't check them in. So you're forced to take a more manual and probably
@@ -146,7 +146,7 @@ else (like work on a branch of a branch). In the simple situation where you're a
 so far back to the repository and have it be the backup of your work to date on the branch.
 
 Some Thoughts on Things I Don't Know Anything About
-===================================================
+---------------------------------------------------
 
 While this process works very well for us on Python code, more heavyweight development environments might find it even more valuable.  For example, if it takes an hour-long build process and 20 minutes of testing to determine whether trunk is in a good state, branch-based development could be even more valuable.
 
