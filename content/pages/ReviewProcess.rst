@@ -209,14 +209,14 @@ Documentation:
 You don't need to worry about newlines in the file; the contents will be rewrapped when added to the NEWS files.
 
 Filing bugs and writing review requests
-=======================================
+---------------------------------------
 
 Tickets should be described well enough that the change is already justified and the new code should be easy enough to read that further explanations aren't necessary to understand it, but sometimes diffs themselves can be more difficult to read than either the old or new state of the code, so comments like *the implementation of foo moved from bar.py to baz.py* can sometimes make a reviewer's job easier.
 
 If you're a committer, please always make sure the "branch" field is current and force a build; this helps decrease review latency if the reviewer can see the diff and build results from the convenient links at the top of the ticket without waiting.
 
 Who can review ?
-================
+----------------
 
 Changes must be reviewed by a developer other than the author of the changes. If changes are paired on, a third party must review them.  If changes constitute the work of several people who worked independently, a non-author must review them.
 
@@ -228,7 +228,7 @@ Non-committer contributors may review tickets which committers have submitted.  
 
  
 How to be a good reviewer
-=========================
+-------------------------
 
 First, make sure all of the obvious things are accounted for. Check the "Things your branch or patch must contain" list above, and make sure each point applies to the branch.
  
@@ -255,12 +255,12 @@ When you're done with the review, always say what the next step should be: for e
 If you are officially "doing a review" - in other words, removing the review keyword - please make sure you do a complete review and look for *all* of these things, so that the author has as much feedback as possible to work with while their ticket is out of the review state.  If you don't have time to do a complete review, and you just notice one or two things about the ticket, just make a comment to help the future reviewer, and don't remove the review keyword, so another reviewer might have a look.  For example, say, "I just checked for a news file and I noticed there wasn't one", or, "I saw some trailing whitespace in these methods".  If you remove the review keyword, you may substantially increase the amount of time that the author has to wait for a real, comprehensive review, which is very frustrating.
 
 The commit message
-==================
+------------------
 
 Several tools exist which parse commit messages to trunk, so the *Author*, *Reviewer*, and *Fixes* lines should conform to this format exactly.  Multiple *Fixes* lines will close multiple tickets.  *Refs* may also be used to attach the commit message to another ticket which is not being closed.  The commit message should also describe the change being made in a modest amount of detail.
 
 Reverting a change
-==================
+------------------
 
 If a change set somehow introduces a test suite regression or is otherwise found to be undesirable, it is to be reverted.  Any developer may revert a commit which introduces a test suite regression on a supported platform. The revert message should be as explicit as possible. If it's a failure, put the message of the error in the commit message, possibly with the identifier of the buildbot slave. If there are too many failures, it can be put in the tracker, with a reference in the message. Use the "Reopens" tag to automatically reopen the ticket:
 
