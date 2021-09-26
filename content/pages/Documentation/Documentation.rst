@@ -43,7 +43,7 @@ Developer Docs
 Mail Lists
 ==========
 
-* Search the `twisted <http://www.mail-archive.com/twisted@python.org>`_ or `twisted-web <http://www.google.com/search?q=site%3Atwistedmatrix.com+inurl%3Apipermail%2Ftwisted-web&btnG=Search>`_ mail list archives.
+* Search the `twisted <http://www.mail-archive.com/twisted-python@twistedmatrix.com>`_ or `twisted-web <http://www.google.com/search?q=site%3Atwistedmatrix.com+inurl%3Apipermail%2Ftwisted-web&btnG=Search>`_ mail list archives.
 
 Books
 =====

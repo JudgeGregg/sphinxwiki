@@ -4,6 +4,7 @@ Reviewing and Adding Documentation
 :slug: ReviewingDocumentation
 
 The documentation may need help if:
+
 * Explanations are unclear
 * Examples don't work or have become outdated
 * The overall structure or the order in which information is presented is unintuitive 
@@ -16,7 +17,7 @@ Editing example and howto documentation
 
 These narrative docs live in `reStructuredText <http://docutils.sourceforge.net/rst.html>`_ (``.rst``) files in subdirectories of `docs/ <https://github.com/twisted/twisted/tree/trunk/docs>`_. Twisted uses the document generator `Sphinx <https://sphinx.readthedocs.io/en/stable/>`_ to generate the HTML files you see on the web from these ``.rst`` files. After adding your changes, it's important to review your changes for correctness and to preview how they will look on the website.
 
-#. If you haven't already, `create your Twisted work environment <{filename}/pages/Twisted/TwistedDevelopment.rst#creatingyourworkenvironment>`_.
+#. If you haven't already, `create your Twisted work environment <{filename}/pages/Twisted/TwistedDevelopment.rst#creating-your-work-environment>`_.
 
 #. Make sure you have the latest version of the code
 
@@ -32,14 +33,14 @@ This generates `docs/_build/core/howto/choosing-reactor.html`, which you can vie
 
 ``python -m webbrowser docs/_build/core/howto/choosing-reactor.html``
 
-If everything looks good, submit a patch to the `.rst` as described `here <{filename}/pages/Twisted/TwistedDevelopment.rst#submittingapatch>`_.
+If everything looks good, submit a patch to the `.rst` as described `here <{filename}/pages/Twisted/TwistedDevelopment.rst#submitting-a-patch>`_.
 
 Editing API Docs
 ================
 
 The API docs are generated from the doc strings in the code by `pydoctor <https://github.com/twisted/pydoctor>`_ , so to update what will be displayed in the API docs just update the doc strings. After making your changes, generate a test set of API docs to preview how they will look.
 
-#. If you haven't already, `create your Twisted work environment <{filename}/pages/Twisted/TwistedDevelopment.rst#creatingyourworkenvironment>`_.
+#. If you haven't already, `create your Twisted work environment <{filename}/pages/Twisted/TwistedDevelopment.rst#creating-your-work-environment>`_.
 
 #. Make sure you have the latest version of the code
 
@@ -49,17 +50,13 @@ The API docs are generated from the doc strings in the code by `pydoctor <https:
 
 Generate the docs with the build-apidocs admin script like so:
 
-``
-tox -e apidocs
-``
+``tox -e apidocs``
 
 The above produces a folder called `apidocs` in your current working directory. You can then open the docs in a web browser with the command:
 
-``
-python -m webbrowser apidocs/index.html
-``
+``python -m webbrowser apidocs/index.html``
 
-If everything looks good, submit a patch as described [wiki:TwistedDevelopment#SubmittingaPatch here].
+If everything looks good, submit a patch as described `here <{filename}/pages/Twisted/TwistedDevelopment.rst#submitting-a-patch>`_.
 
 More
 ====

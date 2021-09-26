@@ -5,15 +5,14 @@ Twisted Development
 
 `Contribute <{filename}/pages/ContributingToTwistedLabs.rst>`_ > Twisted Development
 
+.. contents::
+
 Contributing
 ============
 
 Twisted uses the `The Ultimate Quality Development System <{filename}/pages/UltimateQualityDevelopmentSystem.rst>`_, in addition to this ReviewProcess.
 
 If you want to become a developer, it is important to understand that all your contributions (including those initial patches you send to the bug tracker) will have to be licenced under the `MIT License <https://opensource.org/licenses/mit-license.php>`_.
-
-
-.. _gettingthesourcecode:
 
 Getting the source code
 =======================
@@ -108,8 +107,6 @@ Here is an example of creating an environment using virtualenv.
   ./bin/admin/check-newsfragment src/twisted/
   check-manifest --ignore "docs/_build*,docs/historic/*,admin*,bin/admin*,twisted/topfiles/*.Old"
 
-.. _submittingapatch:
-
 Submitting a Patch
 ==================
 
@@ -117,9 +114,9 @@ Here's a quick step-by-step guide to getting from an idea for an improvement to 
 
 #. For the patch you are submitting, make sure that a `ticket exists using the "search" field above <https://twistedmatrix.com/trac/report>`_, and Google for the patch which you are submitting.
 
-   #. If you can't find one, file a new ticket using the `new ticket <https://twistedmatrix.com/trac/newticket>`_ link above. See: `Tickets Management <{filename}/pages/Twisted/TwistedDevelopment#ticketsmanagement>`_.
+   #. If you can't find one, file a new ticket using the `new ticket <https://twistedmatrix.com/trac/newticket>`_ link above. See: `Tickets Management <{filename}/pages/Twisted/TwistedDevelopment.rst#tickets-management>`_.
 
-#. Create a `fork on GitHub <https://help.github.com/articles/fork-a-repo/>`_ and clone it (see `Getting the source code <#gettingthesourcecode>`_ above).
+#. Create a `fork on GitHub <https://help.github.com/articles/fork-a-repo/>`_ and clone it (see `Getting the source code <#getting-the-source-code>`_ above).
 
 #. Create a branch in git for your code.  If your ticket is **1234** and your GitHub ID is **myuserid**, you can create a branch like:
 
@@ -169,7 +166,7 @@ Here's a quick step-by-step guide to getting from an idea for an improvement to 
 Getting Your Patch Accepted
 ===========================
 
-If you are interested in contributing to Twisted for the first time, consider working on an existing ticket rather than contributing a new feature.  Fixes for existing problems or implementations of already-requested features will generally take priority over new ideas.  Consider discussing the work you want to do with `other Twisted developers first <{filename}/pages/Twisted/TwistedCommunity.rst>`.
+If you are interested in contributing to Twisted for the first time, consider working on an existing ticket rather than contributing a new feature.  Fixes for existing problems or implementations of already-requested features will generally take priority over new ideas.  Consider discussing the work you want to do with `other Twisted developers first <{filename}/pages/Twisted/TwistedCommunity.rst>`_.
 
 Familiarize yourself with project policies and coding standards and make sure your full contribution (code, test, documentation, design) adheres to it. See: `Policies <#policies>`__.
 
@@ -180,11 +177,10 @@ Make sure there are no errors when running these tox environments (or equivalent
 
 Make sure that you have written unit tests and docstrings for all code which has changed in your patch.  It works best if you use test-driven development to write your patch initially, and write your tests before your code.  (Believe me, if you write your tests after you write your code, we ''will'' know.  It's more obvious than you think.)
 
-Run the full test suite ''before'' submitting your patch, and fix any problems you discover.  If a reviewer notices failing tests, they may not give your code a deep look, and you may have to wait longer for a second review. See: `Tools for development <#toolsfordevelopment>`_.
+Run the full test suite ''before'' submitting your patch, and fix any problems you discover.  If a reviewer notices failing tests, they may not give your code a deep look, and you may have to wait longer for a second review. See: `Tools for development <#tools-for-development>`_.
 
 Some users may discover that their system is unusual and Twisted's test suite **does not pass** "out of the box".  If this is the case, just make sure that the **same** tests are failing for you in a pristine checkout of trunk and with your changes applied.  Then, in addition to submitting your patch, please let us know about the problem with the test suite!
 
-.. _toolsfordevelopment:
 
 Tools For Development
 =====================
@@ -195,7 +191,7 @@ Command from this section assume that you run them from withing Twisted source c
 
 To run the tests, simply run `trial twisted`. Make sure you run trial command that comes with twisted source code and not the one provided by your operating system.
 
-To generate the narrative documentation or API documentation, see `the wiki page on Twisted documentation <{filename}/pages/ReviewingDocumentation.rst>`.
+To generate the narrative documentation or API documentation, see `the wiki page on Twisted documentation <{filename}/pages/ReviewingDocumentation.rst>`_.
 
 After every commit to Twisted, the buildbot runs all the unit tests and reports `test results on several platforms <http://buildbot.twistedmatrix.com/>`_.  Here is a page showing only the `test results on supported platforms <http://buildbot.twistedmatrix.com/boxes-supported>`_. All tests on supported platforms always pass. Watch the buildbot. Because sometimes, the buildbot watches back.
 
@@ -285,4 +281,4 @@ If you want to hack Twisted on Win32, see Ying Li's `short tutorial on setting u
 Twisted Maintenance
 ===================
 
-You might be interested in learning about tasks related to maintaining this website? or for `releasing Twisted <{filename}/pages/ReleaseProcess.rst>`_.
+You might be interested in learning about tasks related to maintaining this website? or for `releasing Twisted <http://twisted.readthedocs.org/en/latest/core/development/policy/release-process.html>`_.

@@ -39,6 +39,9 @@ Directions for the Review Committee
 ===================================
 
 The committee will use the following process when deciding to grant commit privileges:
+
 #. Once at least 1 committee member sponsors the application, other committers have 7 days to object to the application.
+
 #. If no objections are received within the 7 day period, any member of the committee may grant the applicant commit privileges.
+
 #. If the committee decides to grant privileges to the applicant, a committee member will make an announcement on the mailing list welcoming the new committer. If the application is denied, then the applicant will be notified privately and given an explanation.

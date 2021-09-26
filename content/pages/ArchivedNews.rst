@@ -63,7 +63,7 @@ Apple's iCal Server is written in Twisted. Visit the `development site <http://t
 Twisted 2.4.0 (2006-05-25)
 ==========================
 
-Including updates to Words, Web, Names, Mail, Conch, and more.  See TwistedProject.
+Including updates to Words, Web, Names, Mail, Conch, and more.  See `TwistedProject <{filename}/pages/Twisted/TwistedProject.rst>`_.
 
 Twisted Sprint in Sydney  (2006-05-19)
 ======================================
@@ -73,7 +73,7 @@ Twisted's Australian hackers are converging in Sydney on the June 3-4 weekend.  
 Twisted 2.2.0 (2006-02-12)
 ==========================
 
-Twisted 2.2.0 is out. See TwistedProject.
+Twisted 2.2.0 is out. See `TwistedProject <{filename}/pages/Twisted/TwistedProject.rst>`_.
 
 Twisted (core) 2.1.0 + First Virtual Sprint (2005-10-09)
 ========================================================

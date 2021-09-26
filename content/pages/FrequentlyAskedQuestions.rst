@@ -304,7 +304,7 @@ I have a patch. How do I maximize the chances the Twisted developers will includ
 
 There are several steps you can take to increase the chances of inclusion into Twisted:
 
-#. Be sure you have read and are familiar with the information and linked material `here <{filename}/pages/TwistedDevelopment.rst>`__ and `here <{filename}/pages/ContributingToTwistedLabs.rst>`_.
+#. Be sure you have read and are familiar with the information and linked material `here <{filename}/pages/Twisted/TwistedDevelopment.rst>`__ and `here <{filename}/pages/ContributingToTwistedLabs.rst>`_.
 #. `Open a ticket <http://twistedmatrix.com/fixme/trac/newticket>`_ for the feature you wish to add.
 #. Get feedback from others on your ideas and thoughts.
 #. Write ``trial`` tests for your code!

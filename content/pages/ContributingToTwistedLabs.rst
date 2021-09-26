@@ -3,19 +3,7 @@ Contributing To Twisted
 
 :slug: ContributingToTwisted
 
-#. `ContributingToTwisted <#>`_
-
-   #. `Code Contributions <#codecontributions>`_
-
-      #. `Overview <#overviewanchor>`_
-
-      #. `Prepare <#prepareanchor>`_
-
-      #. `Explore and Contribute <#exploreandcontribute>`_
-
-   #. `Other Ways to Contribute <#otherwaystocontribute>`_
-
-#. `Wiki Portals <#wikiportals>`_
+.. contents::
 
 There are many ways individuals and organizations can make contributions to Twisted.
 
@@ -24,22 +12,17 @@ Many open source projects are perpetually crunched for volunteer labor. Twisted 
 When you contribute money to the Twisted project, you are directly contributing to get bugs fixed, features implemented, and tickets reviewed.
 Donations are `tax-deductible <{filename}/pages/Twisted/TwistedSoftwareFoundation.rst#background>`_ and can be made via `Google Checkout or Paypal <http://twistedmatrix.com/>`_ or directly to the `Twisted Software Foundation <{filename}/pages/Twisted/TwistedSoftwareFoundation.rst>`_.
 
-.. _codecontributions:
-
 Code Contributions
 ==================
 
-.. _overviewanchor:
-
 Overview
 --------
-* `Submitting a Patch <{filename}/pages/Twisted/TwistedDevelopment.rst#submittingapatch>`_, a simplified overview
+
+* `Submitting a Patch <{filename}/pages/Twisted/TwistedDevelopment.rst#submitting-a-patch>`_, a simplified overview
 * `Detailed Contribution Requirements <{filename}/pages/Twisted/TwistedDevelopment.rst>`_, with that and more
 * `Review Process <{filename}/pages/ReviewProcess.rst>`_, how contributed code is quality checked and reviewed 
 * `Checklist for Twisted committers <{filename}/pages/CommitterCheckList.rst>`_, things that developers with commit access should know
 
-
-.. _prepareanchor:
 
 Prepare
 -------
@@ -47,7 +30,7 @@ Prepare
 
 * Intimately familiarize yourself with `The Ultimate Quality Development System <{filename}/pages/UltimateQualityDevelopmentSystem.rst>`_
 
-* Understand the `Developer docs <{filename}/pages/Documentation/Documentation.rst>`_ (how-tos, core docs, examples, API reference)
+* Understand the `Developer docs </index.html>`_ (how-tos, core docs, examples, API reference)
 
 * Twisted has a rigorous policy standards for code, documentation, and testing:
 
@@ -63,8 +46,6 @@ Prepare
 
 * Multiple CI services are used to automate the build process across platforms and test for breakage. Watch their feedback on each pull request page.
 
-.. _exploreandcontribute:
-
 Explore and Contribute
 ----------------------
 
@@ -76,7 +57,7 @@ Explore and Contribute
 
   * `'Easy' keyword tickets </fixme/query?status=new&status=assigned&status=reopened&keywords=%7Eeasy&order=priority>`_ are low-hanging fruit and good to get your feet wet
 
-* `Submit a Patch <{filename}/pages/Twisted/TwistedDevelopment.rst#submittingapatch>`_
+* `Submit a Patch <{filename}/pages/Twisted/TwistedDevelopment.rst#submitting-a-patch>`_
 
 * Learn how to apply for commit privileges with the `Contributor Advancement Path <{filename}/pages/ContributorAdvancementPath.rst>`_
 
