@@ -61,8 +61,6 @@ Explore and Contribute
 
 * Learn how to apply for commit privileges with the `Contributor Advancement Path <{filename}/pages/ContributorAdvancementPath.rst>`_
 
-.. _otherwaystocontribute:
-
 Other Ways to Contribute
 ========================
 
@@ -71,8 +69,6 @@ Other Ways to Contribute
 * Submit bug reports (you must first be `registered </fixme/register/>`_)
 * Provide technical support (answer questions on `IRC and the mail lists <{filename}/pages/Twisted/TwistedCommunity.rst>`_)
 * Sign up for a `project job <{filename}/pages/ProjectJobs.rst>`_. Help us maintain our build CI, speed center, Trac instance, and more.
-
-.. _wikiportals:
 
 Wiki Portals
 ============
