@@ -1,7 +1,6 @@
 Building Twisted on Windows
 ###########################
 
-:slug: WindowsBuilds
 
 
 This contains information for building Twisted on Windows

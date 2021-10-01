@@ -1,7 +1,6 @@
 Twisted API Documentation
 #########################
 
-:slug: APIDocs
 
 This page describes how to generate the API docs for the Twisted web site.
 

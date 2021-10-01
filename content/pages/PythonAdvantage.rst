@@ -1,7 +1,6 @@
 The Python Advantage
 ####################
 
-:slug: PythonAdvantage
 
 According to `the web site for it <http://www.python.org/>`_ , which has a pretty good chance of being correct...
 

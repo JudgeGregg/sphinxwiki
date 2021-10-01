@@ -1,7 +1,6 @@
 Documentation
 #############
 
-:slug: Documentation
 :save_as: index.html
 
 .. _Start here: http://twistedmatrix.com/documents/current/core/howto/index.html
@@ -9,10 +8,10 @@ Documentation
 
 |Start here|_ , the developer guides for Twisted's core networking libraries. See also our many `examples <http://twistedmatrix.com/documents/current/core/examples/>`__ and the current `API reference <http://twistedmatrix.com/documents/current/api/>`_.
 
-`Web Servers and Clients howtos <http://twistedmatrix.com/documents/current/web/howto/>`__ and `examples <http://twistedmatrix.com/documents/current/web/examples/>`__ . Want to use Twisted for **web development**? Please read `this page first! <{filename}/pages/WebDevelopmentWithTwisted.rst>`_
+`Web Servers and Clients howtos <http://twistedmatrix.com/documents/current/web/howto/>`__ and `examples <http://twistedmatrix.com/documents/current/web/examples/>`__ . Want to use Twisted for **web development**? Please read `this page f.html! </content/pages/WebDevelopmentWithTwisted.html>`_
 
 
-* Read our `FAQ <{filename}/pages/FrequentlyAskedQuestions.rst>`_.
+* Read our `FAQ </content/pages/FrequentlyAskedQuestions.html>`_.
 
 * Documentation for other Twisted components:
 
@@ -37,8 +36,8 @@ Dave Peticolas has written a number of `excellent tutorials <http://krondo.com/?
 Developer Docs
 ==============
 
-* Want to contribute? We have a page dedicated to `documentation for contributors <{filename}/pages/ContributingToTwistedLabs.rst>`_.
-* Here are some notes about `Twisted Development <{filename}/pages/Twisted/TwistedDevelopment.rst>`_.
+* Want to contribute? We have a page dedicated to `documentation for contributors </content/pages/ContributingToTwistedLabs.html>`_.
+* Here are some notes about `Twisted Development </content/pages/Twisted/TwistedDevelopment.html>`_.
 
 Mail Lists
 ==========

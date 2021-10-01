@@ -1,9 +1,8 @@
 Twisted Code Review Process
 ###########################
 
-:slug: ReviewProcess
 
-`Contribute <{filename}/pages/ContributingToTwistedLabs.rst>`_ > `Development <{filename}/pages/Twisted/TwistedDevelopment.rst>`_ > Review Process
+`Contribute </content/pages/ContributingToTwistedLabs.html>`_ > `Development </content/pages/Twisted/TwistedDevelopment.html>`_ > Review Process
 
 .. contents::
 
@@ -14,12 +13,12 @@ Both authors and reviewers should be intimately familiar with all requirements o
 Authors: Before you get started
 ===============================
 
-For the most part, we'd love for you to jump right in and start writing code!  The code review process should catch any serious problems with your contribution, and the continuous integration system should catch most tricky cross-platform issues.  It's easy to get too caught up in trying to do everything perfectly the first time and never get any code written, so you should usually err on the side of just trying something out rather than waiting for someone to tell you if it's OK.  That being said, there are a few things that you should really be aware of before you write your first line of code:
+For the most part, we'd love for you to jump right in and start writing code!  The code review process should catch any serious problems with your contribution, and the continuous integration system should catch most tricky cross-platform issues.  It's easy to get too caught up in trying to do everything perfectly the f.html time and never get any code written, so you should usually err on the side of just trying something out rather than waiting for someone to tell you if it's OK.  That being said, there are a few things that you should really be aware of before you write your f.html line of code:
 
 .. _ReleaseProcess: http://twisted.readthedocs.org/en/latest/core/development/policy/release-process.html
 .. |ReleaseProcess| replace:: **a current pre-release**
 
-* Make sure you have a *clear idea of what work needs doing*.  Write down your idea first; `file a ticket <https://twistedmatrix.com/fixme/trac/newticket>`_ before you write a patch.  A really good ticket will give a precise description of what needs to change and why it needs changing; it avoids giving precise details of exactly *how* the code needs to change, because the patch should supply those details.  A really *bad* ticket will say "here is a patch I wrote, apply it".  If you're just getting started with contributing to Twisted, it would be good to find an existing ticket rather than come up with something yourself, so you have an idea how to go through the process before you start making difficult changes.  You'll need to have a good description of your work for other parts of the process as well (the NEWS file, the commit message) which is another reason thinking about what you're trying to do helps.
+* Make sure you have a *clear idea of what work needs doing*.  Write down your idea f.html; `file a ticket <https://twistedmatrix.com/fixme/trac/newticket>`_ before you write a patch.  A really good ticket will give a precise description of what needs to change and why it needs changing; it avoids giving precise details of exactly *how* the code needs to change, because the patch should supply those details.  A really *bad* ticket will say "here is a patch I wrote, apply it".  If you're just getting started with contributing to Twisted, it would be good to find an existing ticket rather than come up with something yourself, so you have an idea how to go through the process before you start making difficult changes.  You'll need to have a good description of your work for other parts of the process as well (the NEWS file, the commit message) which is another reason thinking about what you're trying to do helps.
 
   * Note: **if you're filing a bug because you noticed a regression in** |ReleaseProcess|_ **, make sure to mark it as a regression, add it to the release milestone, and to post something to the mailing list as well**.  It's very important for us to spot regressions before they make it into a final release, so redundant communication is better in this case!
 
@@ -31,14 +30,14 @@ Authors: Things your branch or patch must contain
 * Code which follows the `coding standard <http://twistedmatrix.com/documents/current/core/development/policy/coding-standard.html>`_
 * 100% unit test coverage for all modified and new code (even if it didn't have tests before)
 * 100% API docstring coverage for all modified and new code (even if it didn't have docs before)
-* No `CompatibilityPolicy <{filename}/pages/CompatibilityPolicy.rst>`_ backwards-incompatible changes.  Please also be sparing when adding 'public' names to the API, as they must be supported in the future.  If it can start with an underscore and not be exposed publicly, it probably should.
-* Appropriate new or modified "End User" guide documentation (in the form of rst files in the `docs/ <https://github.com/twisted/twisted/tree/trunk/docs>`_ directory)
+* No `CompatibilityPolicy </content/pages/CompatibilityPolicy.html>`_ backwards-incompatible changes.  Please also be sparing when adding 'public' names to the API, as they must be supported in the future.  If it can start with an underscore and not be exposed publicly, it probably should.
+* Appropriate new or modified "End User" guide documentation (in the form of.html files in the `docs/ <https://github.com/twisted/twisted/tree/trunk/docs>`_ directory)
 * A file in all relevant "newsfragments" directories describing changes which affect users (See `below <#news-files>`__)
 
 Authors: How to get your change reviewed
 ========================================
 
-.. _Security: {filename}/pages/Security.rst
+.. _Security: /content/pages/Security.html
 
 * There must be a bug in the Twisted bug tracker describing the desired outcome (See `below <#filing-bugs-and-writing-review-requests>`__).
 
@@ -52,16 +51,16 @@ Authors: How to get your change reviewed
 
   * Make sure your code is in a branch.
   * Make sure the 'branch' field on the ticket corresponds to the branch where the code is checked in.
-  * `Force a build of your branch <{filename}/pages/ContinuousIntegration/DeveloperWorkflow.rst>`_. Make sure that it's **green**!
+  * `Force a build of your branch </content/pages/ContinuousIntegration/DeveloperWorkflow.html>`_. Make sure that it's **green**!
 
 Reviewers: How to review a change
 =================================
 
 * Be familiar with the Twisted codebase, coding standard, and these review requirements.
 * Don't be the author of the change (See `below <#who-can-review>`__).
-* Make sure that it's **green**! `Trigger a build if it was not done yet <{filename}/pages/ContinuousIntegration/DeveloperWorkflow.rst>`_.
+* Make sure that it's **green**! `Trigger a build if it was not done yet </content/pages/ContinuousIntegration/DeveloperWorkflow.html>`_.
 
-  * There is one caveat to this rule. If one of the tools that we use to verify the code, such as ``pydoctor``, ``twistedchecker`` or ``pyflakes``, causes a build to fail, but for a reason that has to do with a bug in the tool rather than a problem with the code, file the bug in the tool, and then link from the bug report to the twisted ticket where you saw the spurious failure.  You can `file bugs in twistedchecker here <https://github.com/twisted/twistedchecker/issues>`_ , `pydoctor here <https://github.com/twisted/pydoctor/issues>`_ , or `pyflakes here <https://launchpad.net/pyflakes>`_.  Don't block a branch on a tool bug, but also, don't let any spurious failures go without filing an appropriate bug on the relevant tool first.
+  * There is one caveat to this rule. If one of the tools that we use to verify the code, such as ``pydoctor``, ``twistedchecker`` or ``pyflakes``, causes a build to fail, but for a reason that has to do with a bug in the tool rather than a problem with the code, file the bug in the tool, and then link from the bug report to the twisted ticket where you saw the spurious failure.  You can `file bugs in twistedchecker here <https://github.com/twisted/twistedchecker/issues>`_ , `pydoctor here <https://github.com/twisted/pydoctor/issues>`_ , or `pyflakes here <https://launchpad.net/pyflakes>`_.  Don't block a branch on a tool bug, but also, don't let any spurious failures go without filing an appropriate bug on the relevant tool f.html.
   * If the contributor lacks permission to create branches in the official Twisted repository on github (``twisted/twisted``), you will need to push it to the official Twisted repository -- after a security review -- to cause all of the CI builders to process the branch.  After verifying the change is not an attack on the CI system, use ``admin/pr_as_branch`` to push the changes into the official Twisted repository.  The remaining builds will be started and the results will eventually appear on the original PR.  If new commits are pushed to the branch, repeat the process.
   * Note any unreliable tests on the `build reliability placeholder ticket </fixme/tract/ticket/8879>`_.
 * Assign the ticket to yourself.
@@ -116,7 +115,7 @@ News files
 
 **NB: If your pull request contains news fragments in** ``topfiles`` **directories, please run** ``admin/fix-for-towncrier.py`` **and then commit the result.**
 
-It is up to the authors of individual changes to write high-level descriptions for their changes. These descriptions will be aggregated into the release notes distributed with Twisted releases.  If we just let each author add to the `NEWS <https://github.com/twisted/twisted/blob/trunk/NEWS.rst>`_ file on every commit, though, we would run into lots of spurious conflicts. To avoid this, we use `towncrier <https://pypi.python.org/pypi/towncrier>`_ to manage separate news fragments for each change.
+It is up to the authors of individual changes to write high-level descriptions for their changes. These descriptions will be aggregated into the release notes distributed with Twisted releases.  If we just let each author add to the `NEWS <https://github.com/twisted/twisted/blob/trunk/NEWS.html>`_ file on every commit, though, we would run into lots of spurious conflicts. To avoid this, we use `towncrier <https://pypi.python.org/pypi/towncrier>`_ to manage separate news fragments for each change.
 
 Changes must be accompanied by a file whose content describes that change in at least one ``newsfragments`` directory. There are ``newsfragments`` directories for each subproject (*e.g.* `src/twisted/web/newsfragments, <https://github.com/twisted/twisted/tree/trunk/src/twisted/web/newsfragments>`_ `src/twisted/names/newsfragments <https://github.com/twisted/twisted/tree/trunk/src/twisted/names/newsfragments>`_, `src/twisted/words/newsfragments <https://github.com/twisted/twisted/tree/trunk/src/twisted/words/newsfragments>`_), and one root directory (`src/twisted/newsfragments <https://github.com/twisted/twisted/tree/trunk/src/twisted/newsfragments>`_) for core Twisted changes. If a change affects multiple areas of Twisted, then each affected area can have a newsfragments entry to detail the relevant changes.  An entry must be a file named ``<ticket number>.<change type>`` (eg. ``1234.bugfix``). You should replace ``<ticket number>`` with the ticket number which is being resolved by the change (if multiple tickets are resolved, multiple files with the same contents should be added).  The ``<change type>`` extension is replaced by one of the following literal strings:
 
@@ -130,7 +129,7 @@ Type          Scope
 **misc**      Tickets which are very minor and not worth summarizing outside of the git changelog.  These should be empty (their contents will be ignored)
 ============  =====
 
-To get a sense of how the text in these files is presented to users, take a look at `the real overall news file <https://github.com/twisted/twisted/blob/trunk/NEWS.rst>`_ .  The goal when writing the content for one of these files is to produce text that will fit well into the overall news files.
+To get a sense of how the text in these files is presented to users, take a look at `the real overall news file <https://github.com/twisted/twisted/blob/trunk/NEWS.html>`_ .  The goal when writing the content for one of these files is to produce text that will fit well into the overall news files.
 
 Here are a few which should help you write good news fragments:
 
@@ -211,7 +210,7 @@ You don't need to worry about newlines in the file; the contents will be rewrapp
 Filing bugs and writing review requests
 ---------------------------------------
 
-Tickets should be described well enough that the change is already justified and the new code should be easy enough to read that further explanations aren't necessary to understand it, but sometimes diffs themselves can be more difficult to read than either the old or new state of the code, so comments like *the implementation of foo moved from bar.py to baz.py* can sometimes make a reviewer's job easier.
+Tickets should be described well enough that the change is already justified and the new code should be easy enough to read that further explanations aren't necessary to und.htmland it, but sometimes diffs themselves can be more difficult to read than either the old or new state of the code, so comments like *the implementation of foo moved from bar.py to baz.py* can sometimes make a reviewer's job easier.
 
 If you're a committer, please always make sure the "branch" field is current and force a build; this helps decrease review latency if the reviewer can see the diff and build results from the convenient links at the top of the ticket without waiting.
 
@@ -230,7 +229,7 @@ Non-committer contributors may review tickets which committers have submitted.  
 How to be a good reviewer
 -------------------------
 
-First, make sure all of the obvious things are accounted for. Check the "Things your branch or patch must contain" list above, and make sure each point applies to the branch.
+F.html, make sure all of the obvious things are accounted for. Check the "Things your branch or patch must contain" list above, and make sure each point applies to the branch.
  
 Use `pyflakes <https://pypi.python.org/pypi/pyflakes>`_ to check the basic quality of the code. The following command will check all the files modified and added by a branch merge:
 

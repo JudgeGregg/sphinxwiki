@@ -1,9 +1,8 @@
 Downloads
 #########
 
-:slug: Downloads
 
-For more information about Twisted, please see the `Twisted Project <{filename}/pages/Twisted/TwistedProject.rst>`_ page.
+For more information about Twisted, please see the `Twisted Project </content/pages/Twisted/TwistedProject.html>`_ page.
 
 You can get the latest release from `PyPI Twisted <https://pypi.org/project/Twisted/>`_ project page.
 

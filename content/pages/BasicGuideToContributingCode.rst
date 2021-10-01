@@ -1,6 +1,5 @@
 Basic Guide To Contributing Code
 ################################
 
-:slug: BasicGuideToContributingCode
 
-Please see `Contributing to Twisted Labs! <{filename}/pages/ContributingToTwistedLabs.rst>`_
+Please see `Contributing to Twisted Labs! </content/pages/ContributingToTwistedLabs.html>`_

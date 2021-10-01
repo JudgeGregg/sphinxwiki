@@ -1,7 +1,6 @@
 What Twisted Is
 ###############
 
-:slug: WhyShouldICare
 
 Twisted is an asynchronous framework designed specifically around networks and databases.  This allows for concurrency without requiring the use of forking processes or spawning threads.  Now, this obviously does not come without some additional work, especially if you're used to using one of the other methods.  
 
@@ -26,5 +25,5 @@ The Proof
 
 Okay, you've made all these claims, but where's the proof?
 
-* `Success Stories <{filename}/pages/SuccessStories.rst>`_ - See what others say about Twisted
-* `Software that uses Twisted <{filename}/pages/ProjectsUsingTwisted.rst>`_ - See who uses Twisted
+* `Success Stories </content/pages/SuccessStories.html>`_ - See what others say about Twisted
+* `Software that uses Twisted </content/pages/ProjectsUsingTwisted.html>`_ - See who uses Twisted

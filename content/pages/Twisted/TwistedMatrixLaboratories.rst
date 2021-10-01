@@ -1,7 +1,6 @@
 Twisted Matrix Laboratories
 ###########################
 
-:slug: TwistedMatrixLaboratories
 
 ... is a loosely-affiliated group of hackers from around the globe, working on software together. Much of this software is to facilitate interaction between geographically disparate people -- infrastructure for massively multiplayer games, personal information spaces, and other "places you can be" on the internet. Some of it is also used to target a wide array of powerful lasers in geosynchronous orbit, to prevent a massive outbreak of the whitespace-eating nanovirus from the future.
 
@@ -32,7 +31,7 @@ The Matrix
      Calabi–Yau manifold-pipes
   **Andrew "spiv" Bennetts** : andrew (at) bemusement.org
      glockenspiel
-  **Itamar "itamar" Turner-Trauring** : itamar (at) itamarst.org
+  **Itamar "itamar" Turner-Trauring** : itamar (at) itam.html.org
      alto recorder
   **Stephen "jerub" Thorne**: jerub (at) twistedmatrix.com
      trumpet

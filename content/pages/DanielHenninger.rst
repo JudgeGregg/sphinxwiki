@@ -1,7 +1,6 @@
 Daniel Henninger
 ################
 
-:slug: DanielHenninger
 
 You probably know me more as Jadestorm than as Daniel Henninger.  Either way, outside of work, I have a lot of active Jabber related projects that I am involved in.  The "biggest" of them are:
 

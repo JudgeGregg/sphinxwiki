@@ -1,11 +1,10 @@
 The Twisted Project Sponsorship Program
 #######################################
 
-:slug: TwistedSponsors
 
 We want to continue to invest in and improve Twisted -- for the benefit of our users, and the public at large.   We can't do this without the support of our sponsors and, as a project, we want to publicly acknowledge certain donations through our revamped Twisted Project Sponsorship Program.
 
-For more information about becoming a Twisted Sponsor, click `here <{filename}/pages/Twisted/TwistedSoftwareFoundation.rst#benefits-of-sponsorship>`__.
+For more information about becoming a Twisted Sponsor, click `here </content/pages/Twisted/TwistedSoftwareFoundation.html#benefits-of-sponsorship>`__.
 
 Golden Tree Snake
 =================
@@ -36,4 +35,4 @@ Aluminum Adder
   <p><a href="https://julegenser.no/" rel="nofollow"><img width=160 height=80 src="/images/sponsors-logos/krismis.png"></a></p>
 
 
-For information on Twisted's founding sponsors, click `here <{filename}/pages/TSF/FoundingSponsors.rst>`__.
+For information on Twisted's founding sponsors, click `here </content/pages/TSF/FoundingSponsors.html>`__.

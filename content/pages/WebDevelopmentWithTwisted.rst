@@ -1,7 +1,6 @@
 Web Development with Twisted
 ############################
 
-:slug: WebDevelopmentWithTwisted
 
 There are a number of packages in and around Twisted that do things with the web:
 

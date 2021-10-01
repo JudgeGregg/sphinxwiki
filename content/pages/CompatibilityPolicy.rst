@@ -1,6 +1,5 @@
 Compatibility Policy
 ####################
 
-:slug: CompatibilityPolicy
 
 content moved here https://twistedmatrix.com/documents/current/core/development/policy/compatibility-policy.html

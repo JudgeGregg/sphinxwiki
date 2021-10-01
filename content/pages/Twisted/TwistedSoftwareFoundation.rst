@@ -1,7 +1,6 @@
 Twisted Software Foundation
 ###########################
 
-:slug: TwistedSoftwareFoundation
 
 .. _Software Freedom Conservancy: http://sfconservancy.com/
 
@@ -20,7 +19,7 @@ Our goals are simple: we want to be able to continue improving Twisted -- everyt
 Sponsors
 ========
 
-For a list of our current sponsors, visit here `out sponsorship page <{filename}/pages/Twisted/TwistedSponsors.rst>`_.
+For a list of our current sponsors, visit here `out sponsorship page </content/pages/Twisted/TwistedSponsors.html>`_.
 
 Benefits of Sponsorship
 =======================

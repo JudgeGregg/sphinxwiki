@@ -1,12 +1,11 @@
 Twistery In the News
 ####################
 
-:slug: ArchivedNews
 
 Twisted Announces Membership in the Software Freedom Conservancy (2008-03-16)
 =============================================================================
 
-At PyCon 2008 we were delighted to share some good news with the Python community: the announcement of the `Twisted Software Foundation <{filename}/pages/Twisted/TwistedSoftwareFoundation.rst>`_. Glyph had previously emailed the Twisted mail list, letting those close to the project know of this major event shortly after the paperwork was signed. Before we brought this before a more public audience, we wanted to give companies a chance to become "founding sponsors" -- and this is what has happened at PyCon. We're looking forward to issuing a formal press release about this (including info on the founding sponsors) and will have more details in the near future.
+At PyCon 2008 we were delighted to share some good news with the Python community: the announcement of the `Twisted Software Foundation </content/pages/Twisted/TwistedSoftwareFoundation.html>`_. Glyph had previously emailed the Twisted mail list, letting those close to the project know of this major event shortly after the paperwork was signed. Before we brought this before a more public audience, we wanted to give companies a chance to become "founding sponsors" -- and this is what has happened at PyCon. We're looking forward to issuing a formal press release about this (including info on the founding sponsors) and will have more details in the near future.
 
 We would like to send a special thank-you out to those sponsors who made contributions immediately. In order of contribution, they are:
 
@@ -38,15 +37,15 @@ TM Labs has a `new blog <http://labs.twistedmatrix.com>`_ ! We will be posting v
 Episode 1 of the "Twisted Show" (2007-01-22)
 ============================================
 
-`The Twisted Show <{filename}/pages/TheTwistedShow.rst>`_ is a new experiment we are trying at TM Labs in an effort to let people and business who are solving unique and/or interesting problems with Twisted share their solutions with a wide audience.
+`The Twisted Show </content/pages/TheTwistedShow.html>`_ is a new experiment we are trying at TM Labs in an effort to let people and business who are solving unique and/or interesting problems with Twisted share their solutions with a wide audience.
 
-This first installment is an interview with a few folks at `Renkoo <http://renkoo.com/>`_ who are using Twisted to innovate meetings as part of the social media landscape.
+This f.html installment is an interview with a few folks at `Renkoo <http://renkoo.com/>`_ who are using Twisted to innovate meetings as part of the social media landscape.
 
 Twisted 2.5.0 (2007-01-11)
 ==========================
 
 Major Twisted release! Read the `release announcement <http://twistedmatrix.com/pipermail/twisted-python/2007-January/014589.html>`_ and click 
-on things on the `Downloads <{filename}/pages/Downloads.rst>`_ page.
+on things on the `Downloads </content/pages/Downloads.html>`_ page.
 
 New Twisted Site Goes Live! (2006-12-04)
 ========================================
@@ -63,7 +62,7 @@ Apple's iCal Server is written in Twisted. Visit the `development site <http://t
 Twisted 2.4.0 (2006-05-25)
 ==========================
 
-Including updates to Words, Web, Names, Mail, Conch, and more.  See `TwistedProject <{filename}/pages/Twisted/TwistedProject.rst>`_.
+Including updates to Words, Web, Names, Mail, Conch, and more.  See `TwistedProject </content/pages/Twisted/TwistedProject.html>`_.
 
 Twisted Sprint in Sydney  (2006-05-19)
 ======================================
@@ -73,12 +72,12 @@ Twisted's Australian hackers are converging in Sydney on the June 3-4 weekend.  
 Twisted 2.2.0 (2006-02-12)
 ==========================
 
-Twisted 2.2.0 is out. See `TwistedProject <{filename}/pages/Twisted/TwistedProject.rst>`_.
+Twisted 2.2.0 is out. See `TwistedProject </content/pages/Twisted/TwistedProject.html>`_.
 
-Twisted (core) 2.1.0 + First Virtual Sprint (2005-10-09)
+Twisted (core) 2.1.0 + F.html Virtual Sprint (2005-10-09)
 ========================================================
 
-In Twisted's first virtual sprint the weekend of 2005-10-08, many people contributed to Twisted in general and helped get the Twisted 2.1.0 release out. See the Twisted project page and read about what's new.
+In Twisted's f.html virtual sprint the weekend of 2005-10-08, many people contributed to Twisted in general and helped get the Twisted 2.1.0 release out. See the Twisted project page and read about what's new.
 
 Australian Twisted Sprint 2005.2 (2005-08-07)
 =============================================

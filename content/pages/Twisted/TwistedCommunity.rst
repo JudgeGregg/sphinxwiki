@@ -1,7 +1,6 @@
 Twisted Community
 #################
 
-:slug: TwistedCommunity
 
 For interacting with the twisted community members, you have several options:
 

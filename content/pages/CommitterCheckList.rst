@@ -1,14 +1,13 @@
 Committer Checklist
 ###################
 
-:slug: CommitterChecklist
 
 
-These are things that developers with commit access to the Twisted source repository should know.  The first list is of policy items (i.e., things you should or should not try to do).
+These are things that developers with commit access to the Twisted source repository should know.  The f.html list is of policy items (i.e., things you should or should not try to do).
 
 #. All development is done in branches.
-#. All code committed to trunk must go through the `Review Process <{filename}/pages/ReviewProcess.rst>`_ .
-#. trunk commit messages must follow the format described on `Review Process <{filename}/pages/ReviewProcess.rst>`_ so that various pieces of automation can work.
+#. All code committed to trunk must go through the `Review Process </content/pages/ReviewProcess.html>`_ .
+#. trunk commit messages must follow the format described on `Review Process </content/pages/ReviewProcess.html>`_ so that various pieces of automation can work.
 #. If you check in something that breaks `trunk <http://buildbot.twistedmatrix.com/boxes-supported?branch=trunk&num_builds=20>`_ , revert it
 #. Everything you check in to Git is licensed under `Twisted's license <https://github.com/twisted/twisted/blob/trunk/LICENSE>`_
 #. Be in the IRC channel, at least when you're going to be committing to trunk (don't feel bad about avoiding the distraction when you're trying to get stuff done though).
@@ -20,7 +19,7 @@ This second list includes various technical details about how you might go about
 
    #. Branch names must follow the naming convention so that various pieces of automation can work.
 
-#. trunk commit messages must follow the format described on `Review Process <{filename}/pages/ReviewProcess.rst>`_ so that various pieces of automation can work.
+#. trunk commit messages must follow the format described on `Review Process </content/pages/ReviewProcess.html>`_ so that various pieces of automation can work.
 
    #. If you check in something that breaks `trunk <http://buildbot.twistedmatrix.com/boxes-supported?branch=trunk&num_builds=20>`_ , revert it
 
@@ -44,4 +43,4 @@ This second list includes various technical details about how you might go about
 Other documents that overlap and supplement this information include:
 
 * `Working from Twisted's Code repository <http://twistedmatrix.com/documents/current/core/development/policy/svn-dev.html>`_
-* `Review Process <{filename}/pages/ReviewProcess.rst>`_
+* `Review Process </content/pages/ReviewProcess.html>`_

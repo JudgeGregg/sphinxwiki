@@ -1,6 +1,5 @@
 Branch Policy
 #############
 
-:slug: BranchPolicy
 
-Please see `Ultimate Quality Development System! <{filename}/pages/UltimateQualityDevelopmentSystem.rst>`_
+Please see `Ultimate Quality Development System! </content/pages/UltimateQualityDevelopmentSystem.html>`_

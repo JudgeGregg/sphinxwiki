@@ -1,7 +1,6 @@
 Twisted Community Code
 ######################
 
-:slug: CommunityCode
 
 This wiki page is the home for information about projects to which we are collectively referring by the "super project" name "Twisted Community Code" (abbreviated "tx").
 
@@ -25,7 +24,7 @@ We are making no proclamations about standards, adherences, etc.: community memb
 Leadership
 ==========
 
-In so much as an autonomous collective has leadership, Phil Christensen has kindly agreed to act as the point of contact for this community effort. He will maintain the community presence on Launchpad, send out announcements as necessary, and respond to inquiries, while at the same time receiving the full support of `the Labs' members <{filename}/pages/Twisted/TwistedMatrixLaboratories.rst>`_.
+In so much as an autonomous collective has leadership, Phil Christensen has kindly agreed to act as the point of contact for this community effort. He will maintain the community presence on Launchpad, send out announcements as necessary, and respond to inquiries, while at the same time receiving the full support of `the Labs' members </content/pages/Twisted/TwistedMatrixLaboratories.html>`_.
 
 Launchpad
 =========

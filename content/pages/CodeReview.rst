@@ -1,7 +1,6 @@
 Code Review
 ###########
 
-:slug: CodeReview
 
 Divmod uses code review for just about every change to any project.  The exceptions to this are generally extremely new code which isn't seeing any use yet where the consequences of breaking things are minimal and don't outweigh the cost of developer time required by the review.
 

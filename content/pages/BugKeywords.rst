@@ -1,7 +1,6 @@
 Bug Keywords
 ############
 
-:slug: BugKeywords
 
 * **documentation** - bug is against the Twisted documentation
 * **easy** - bug should be easy to fix and is a good ticket to start with if you want to get started contributing to Twisted

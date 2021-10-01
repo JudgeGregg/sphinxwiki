@@ -1,7 +1,6 @@
 The Twisted Advantage
 #####################
 
-:slug: TwistedAdvantage
 
 Flexibility
 ===========
@@ -11,12 +10,12 @@ Twisted's codebase is small and it contains many hooks for dynamic content. With
 Security
 ========
 
-Twisted is written in `Python a high-level language <{filename}/pages/PythonAdvantage.rst>`_, rendering it immune to the most common class of security flaw in network software, the "buffer overflow": buffer overflows have allowed worms and crackers to tamper with or disable internet servers. Twisted also takes advantage of operating-system security features whenever possible, delegating responsibility for tasks to the appropriate user to make the system more difficult to exploit.
+Twisted is written in `Python a high-level language </content/pages/PythonAdvantage.html>`_, rendering it immune to the most common class of security flaw in network software, the "buffer overflow": buffer overflows have allowed worms and crackers to tamper with or disable internet servers. Twisted also takes advantage of operating-system security features whenever possible, delegating responsibility for tasks to the appropriate user to make the system more difficult to exploit.
 
 Stability
 =========
 
-Thanks again to `Python's <{filename}/pages/PythonAdvantage.rst>`_ error handling mechanisms, the Twisted server framework is extremely stable. Even the most bleeding-edge development servers -- those we run here at http://twistedmatrix.com -- don't crash, and rarely (if ever) need to be restarted.
+Thanks again to `Python's </content/pages/PythonAdvantage.html>`_ error handling mechanisms, the Twisted server framework is extremely stable. Even the most bleeding-edge development servers -- those we run here at http://twistedmatrix.com -- don't crash, and rarely (if ever) need to be restarted.
 
 But where do these advantages help you directly? Twisted can do a lot, so it depends on what you're using it for. Let's take a look at some potential applications you might have in mind...
 
@@ -30,7 +29,7 @@ Twisted Web scales down as well as up. Use it to share files with your friends a
 Develop Servers at Lightning Speed...
 =====================================
 
-Twisted integrates a large number of consistent APIs for developing new Internet services. This translates to a wide number of protocols and components that are ready to work with your new server before you've written the first line of code.
+Twisted integrates a large number of consistent APIs for developing new Internet services. This translates to a wide number of protocols and components that are ready to work with your new server before you've written the f.html line of code.
 
 In addition to legacy protocol support, the twisted.spread package allows developers to quickly develop new protocols and services with arbitrarily complex interfaces, prototyping new client functionality on the fly.
 

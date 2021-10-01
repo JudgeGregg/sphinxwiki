@@ -1,7 +1,6 @@
 Twisted FAQ
 ###########
 
-:slug: FrequentlyAskedQuestions
 
 This is a list of Frequently Asked Questions regarding Twisted.
 
@@ -14,17 +13,17 @@ General
 What is Twisted?
 ----------------
 
-See the `Twisted Project <{filename}/pages/Twisted/TwistedProject.rst>`_
+See the `Twisted Project </content/pages/Twisted/TwistedProject.html>`_
 
 Why should I use Twisted?
 -------------------------
 
-See the `Twisted Advantage <{filename}/pages/Twisted/TwistedAdvantage.rst>`_
+See the `Twisted Advantage </content/pages/Twisted/TwistedAdvantage.html>`_
 
 I have a problem getting Twisted.
 ---------------------------------
 
-Did you check the `Documentation HOWTO collection? <{filename}/pages/Documentation/Documentation.rst>`_ There are so many documents there that they might overwhelm you... try starting from the index, reading through the overviews and seeing if there seems to be a chapter which explains what you need to. You can try reading the PostScript or PDF formatted books, inside the distribution. And, remember, the source will be with you... always.
+Did you check the `Documentation HOWTO collection? </content/pages/Documentation/Documentation.html>`_ There are so many documents there that they might overwhelm you... try starting from the index, reading through the overviews and seeing if there seems to be a chapter which explains what you need to. You can try reading the PostScript or PDF formatted books, inside the distribution. And, remember, the source will be with you... always.
 
 How big is Twisted?
 -------------------
@@ -34,7 +33,7 @@ As of Twisted 15.4, the source release archive of Twisted is about 3MB. Installe
 Which parts of Twisted are stable?
 ----------------------------------
 
-In general, everything which is part of a Twisted release is stable.  See `CompatibilityPolicy <{filename}/pages/CompatibilityPolicy.rst>`_ for details.
+In general, everything which is part of a Twisted release is stable.  See `CompatibilityPolicy </content/pages/CompatibilityPolicy.html>`_ for details.
 
 Why doesn't Twisted follow PEP 8?
 ---------------------------------
@@ -136,14 +135,14 @@ These are implemented as classes you inherit from rather than ``Protocol``, and 
 Why isn't my ``connectionLost`` method called?
 ----------------------------------------------
 
-``connectionLost`` is called when the platform notifies Twisted that the TCP connection has been closed.  TCP connections are closed in one of two ways.  They can either be closed "actively" - by one side of the connection sending a close message to the other side - or they can be closed by timeout - one side deciding that the other side has taken too long to respond and interpreting this to mean that the other side is no longer paying attention to the connection.  However, for the timeout case, it is important to understand that if an application is not sending data over the connection, **there is no response** to *take too long* so no timeout will ever occur.  This means that if a network error disrupts a connection but the application is not sending data over it, it's possible for ``connectionLost`` to never be called.  However, if the application is sending data over it, then the timeout will eventually expire.  TCP uses very large timeouts in order to account for very poor networks.  If you rely on TCP timeouts, expect as much as two hours (the precise amount is platform specific) to pass between when the disruption occurs and when ``connectionLost`` is called.  If this is too long, you may want to use an application-level *keep alive* mechanism to discover lost connections earlier.  This just involves sending simple messages back and forth over a connection.  If it ever takes longer than whatever amount of time you decide is appropriate for your application to receive a response to one of these messages, consider the connection lost.
+``connectionLost`` is called when the platform notifies Twisted that the TCP connection has been closed.  TCP connections are closed in one of two ways.  They can either be closed "actively" - by one side of the connection sending a close message to the other side - or they can be closed by timeout - one side deciding that the other side has taken too long to respond and interpreting this to mean that the other side is no longer paying attention to the connection.  However, for the timeout case, it is important to und.htmland that if an application is not sending data over the connection, **there is no response** to *take too long* so no timeout will ever occur.  This means that if a network error disrupts a connection but the application is not sending data over it, it's possible for ``connectionLost`` to never be called.  However, if the application is sending data over it, then the timeout will eventually expire.  TCP uses very large timeouts in order to account for very poor networks.  If you rely on TCP timeouts, expect as much as two hours (the precise amount is platform specific) to pass between when the disruption occurs and when ``connectionLost`` is called.  If this is too long, you may want to use an application-level *keep alive* mechanism to discover lost connections earlier.  This just involves sending simple messages back and forth over a connection.  If it ever takes longer than whatever amount of time you decide is appropriate for your application to receive a response to one of these messages, consider the connection lost.
 
 Also, keep in mind that ``transport.loseConnection()`` may not result in the connection closing immediately, e.g. if you have writes buffered. To close the connection immediately, discarding any buffered writes, call ``transport.abortConnection()``.
 
 When I try to install my reactor, I get errors about a reactor already being installed. What gives?
 ---------------------------------------------------------------------------------------------------
 
-Here's the rule - installing a reactor should always be the **first** thing you do, and I do mean first. Importing other stuff before you install the reactor can break your code.
+Here's the rule - installing a reactor should always be the **f.html** thing you do, and I do mean f.html. Importing other stuff before you install the reactor can break your code.
 
 `Tkinter <http://wiki.python.org/moin/TkInter>`_ and `wxPython <http://wxpython.org/>`_ support, as they do not install a new reactor, can be done at any point, IIRC.
 
@@ -159,7 +158,7 @@ When the pickled application state cannot be loaded for some reason, it is commo
   Failed to load application: global name 'initRun' is not defined
 
 
-The rest of the error will try to explain how to solve this problem, but a short comment first: this error is indeed terse -- but there is probably more data available elsewhere -- namely, the ``twistd.log`` file. Open it up to see the full exception.
+The rest of the error will try to explain how to solve this problem, but a short comment f.html: this error is indeed terse -- but there is probably more data available elsewhere -- namely, the ``twistd.log`` file. Open it up to see the full exception.
 
 The error might also look like this:
 
@@ -168,7 +167,7 @@ The error might also look like this:
   Failed to load application: <twisted.persisted.styles.Ephemeral instance at 
   0x82450a4> is not safe for unpickling
 
-To load a ``.tap`` file, as with any unpickling operation, all the classes used by all the objects inside it must be accessible at the time of the reload. This may require the ``PYTHONPATH`` variable to have the same directories as were available when the application was first pickled.
+To load a ``.tap`` file, as with any unpickling operation, all the classes used by all the objects inside it must be accessible at the time of the reload. This may require the ``PYTHONPATH`` variable to have the same directories as were available when the application was f.html pickled.
 
 A common problem occurs in single-file programs which define a few classes, then create instances of those classes for use in a server of some sort. If the class is used directly, the name of the class will be recorded in the ``.tap`` file as something like ``__main__.MyProtocol``. When the application is reloaded, it will look for the class definition in ``__main__`` which probably won't have it. The unpickling routines need to know the module name, and therefore the source file, from which the class definition can be loaded.
 
@@ -224,7 +223,7 @@ If your program appears to send messages as expected, it might be possible that 
 How do I use Deferreds to make my blocking code non-blocking?
 -------------------------------------------------------------
 
-You don't. Deferreds don't magically turn a blocking function call into a non-blocking one. A Deferred is just a simple object that represents a deferred result, with methods to allow convenient adding of callbacks. (This is a common misunderstanding; suggestions on how to make this clearer in the `Deferred Execution <http://twistedmatrix.com/documents/current/core/howto/defer.html>`_ howto are welcome!)
+You don't. Deferreds don't magically turn a blocking function call into a non-blocking one. A Deferred is just a simple object that represents a deferred result, with methods to allow convenient adding of callbacks. (This is a common misund.htmlanding; suggestions on how to make this clearer in the `Deferred Execution <http://twistedmatrix.com/documents/current/core/howto/defer.html>`_ howto are welcome!)
 
 If you have blocking code that you want to use non-blockingly in Twisted, either rewrite it to be non-blocking, or run it in a thread. There is a convenience function, `deferToThread <http://twistedmatrix.com/documents/current/api/twisted.internet.threads.deferToThread.html>`_, to help you with the threaded approach -- but be sure to read `Using Threads in Twisted <http://twistedmatrix.com/documents/current/core/howto/threading.html>`_.
 
@@ -285,9 +284,9 @@ Perspective Broker
 How can I get the reference to a client from a Perspective?
 -----------------------------------------------------------
 
-Firstly, the client must send a reference when it connects to the perspective broker. This can be done by passing the reference as a parameter to `pb.connect <http://twistedmatrix.com/documents/current/api/twisted.spread.pb.connect.html>`_.
+F.htmlly, the client must send a reference when it connects to the perspective broker. This can be done by passing the reference as a parameter to `pb.connect <http://twistedmatrix.com/documents/current/api/twisted.spread.pb.connect.html>`_.
 
-At the server end, you must override the `Perspective.attach <http://twistedmatrix.com/documents/current/api/twisted.spread.pb.Perspective.attach.html>`_, which is called when a client attaches to a perspective. The first argument of this method is a remote reference to the client object that was passed to `pb.connect <http://twistedmatrix.com/documents/current/api/twisted.spread.pb.connect.html>`_.
+At the server end, you must override the `Perspective.attach <http://twistedmatrix.com/documents/current/api/twisted.spread.pb.Perspective.attach.html>`_, which is called when a client attaches to a perspective. The f.html argument of this method is a remote reference to the client object that was passed to `pb.connect <http://twistedmatrix.com/documents/current/api/twisted.spread.pb.connect.html>`_.
 
 Note that a single perspective can have many attached clients. For further information, see `Managing Clients of Perspectives <http://twistedmatrix.com/documents/current/core/howto/pclients.html>`_ HOWTO and the `twisted.spread.pb <http://twistedmatrix.com/documents/current/api/twisted.spread.pb.html>`_ API docs.
 
@@ -297,14 +296,14 @@ Requests and Contributing
 Twisted is cool, but I need to add more functionality.
 ------------------------------------------------------
 
-Great! Read `our docs <{filename}/pages/Documentation/Documentation.rst>`_, and if you're feeling generous, contribute patches.
+Great! Read `our docs </content/pages/Documentation/Documentation.html>`_, and if you're feeling generous, contribute patches.
 
 I have a patch. How do I maximize the chances the Twisted developers will include it?
 -------------------------------------------------------------------------------------
 
 There are several steps you can take to increase the chances of inclusion into Twisted:
 
-#. Be sure you have read and are familiar with the information and linked material `here <{filename}/pages/Twisted/TwistedDevelopment.rst>`__ and `here <{filename}/pages/ContributingToTwistedLabs.rst>`_.
+#. Be sure you have read and are familiar with the information and linked material `here </content/pages/Twisted/TwistedDevelopment.html>`__ and `here </content/pages/ContributingToTwistedLabs.html>`_.
 #. `Open a ticket <http://twistedmatrix.com/fixme/trac/newticket>`_ for the feature you wish to add.
 #. Get feedback from others on your ideas and thoughts.
 #. Write ``trial`` tests for your code!
@@ -344,9 +343,9 @@ Unless it is a show-stopper bug, we usually won't roll out a new release with a 
 Where do I go for help?
 -----------------------
 
-Ask for help `where the Twisted team hangs out <{filename}/pages/Twisted/TwistedCommunity.rst>`_.
+Ask for help `where the Twisted team hangs out </content/pages/Twisted/TwistedCommunity.html>`_.
 
 How do I e-mail a Twisted developer?
 ------------------------------------
 
-First, note that in many cases this is the wrong thing to do: if you have a question about a part of Twisted, it's usually better to e-mail the mailing list. However, the preferred e-mail addresses for all Twisted developers are listed in the CREDITS file in the Subversion repository.
+F.html, note that in many cases this is the wrong thing to do: if you have a question about a part of Twisted, it's usually better to e-mail the mailing list. However, the preferred e-mail addresses for all Twisted developers are listed in the CREDITS file in the Subversion repository.

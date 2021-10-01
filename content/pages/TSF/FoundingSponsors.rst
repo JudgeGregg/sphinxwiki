@@ -1,7 +1,6 @@
 Founding Sponsors
 #################
 
-:slug: FoundingSponsors
 
 We'd like to acknowledge those companies and individuals who made critical contributions to Twisted during our infancy.  Thanks for helping us get on our feet.  
 
