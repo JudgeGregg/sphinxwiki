@@ -7,6 +7,7 @@ To request commit privileges, please submit an application to commit@twistedmatr
 The following is an example application using some of glyph's commit history:
 
 .. code-block::
+
   Hi Twisted committers,
   
   I would like to apply for commit privileges. My trac username is glyph.

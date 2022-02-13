@@ -2,16 +2,16 @@ Twisted Development
 ###################
 
 
-`Contribute </content/pages/ContributingToTwistedLabs.html>`_ > Twisted Development
+`Contribute </sphinxwiki/content/pages/ContributingToTwistedLabs.html>`_ > Twisted Development
 
 .. contents::
 
 Contributing
 ============
 
-Twisted uses the `The Ultimate Quality Development System </content/pages/UltimateQualityDevelopmentSystem.html>`_, in addition to this ReviewProcess.
+Twisted uses the `The Ultimate Quality Development System </sphinxwiki/content/pages/UltimateQualityDevelopmentSystem.html>`_, in addition to this ReviewProcess.
 
-If you want to become a developer, it is important to und.htmland that all your contributions (including those initial patches you send to the bug tracker) will have to be licenced under the `MIT License <https://opensource.org/licenses/mit-license.php>`_.
+If you want to become a developer, it is important to understand that all your contributions (including those initial patches you send to the bug tracker) will have to be licenced under the `MIT License <https://opensource.org/licenses/mit-license.php>`_.
 
 Getting the source code
 -----------------------
@@ -109,11 +109,11 @@ Here is an example of creating an environment using virtualenv.
 Submitting a Patch
 ------------------
 
-Here's a quick step-by-step guide to getting from an idea for an improvement to Twisted to something that we can integrate.  F.html, I'll explain just the mechanics of getting your code into review, not what the code itself should do.  If you actually want us to be able to use your code, you will also want to read the section below on getting your patch accepted, too!
+Here's a quick step-by-step guide to getting from an idea for an improvement to Twisted to something that we can integrate.  First, I'll explain just the mechanics of getting your code into review, not what the code itself should do.  If you actually want us to be able to use your code, you will also want to read the section below on getting your patch accepted, too!
 
 #. For the patch you are submitting, make sure that a `ticket exists using the "search" field above <https://twistedmatrix.com/trac/report>`_, and Google for the patch which you are submitting.
 
-   #. If you can't find one, file a new ticket using the `new ticket <https://twistedmatrix.com/trac/newticket>`_ link above. See: `Tickets Management </content/pages/Twisted/TwistedDevelopment.html#tickets-management>`__.
+   #. If you can't find one, file a new ticket using the `new ticket <https://twistedmatrix.com/trac/newticket>`_ link above. See: `Tickets Management </sphinxwiki/content/pages/Twisted/TwistedDevelopment.html#tickets-management>`__.
 
 #. Create a `fork on GitHub <https://help.github.com/articles/fork-a-repo/>`_ and clone it (see `Getting the source code <#getting-the-source-code>`_ above).
 
@@ -127,9 +127,9 @@ Here's a quick step-by-step guide to getting from an idea for an improvement to 
 
 #. Edit the code in the branch that you just checked out, making your awesome change to Twisted.
 
-#. Make sure that your patch fulfills all of the requirements of the `ReviewProcess </content/pages/ReviewProcess.html>`_, so you don't need to submit your patch many repeated times. Run ``tox -e black-reformat`` to automate the formatting.
+#. Make sure that your patch fulfills all of the requirements of the `ReviewProcess </sphinxwiki/content/pages/ReviewProcess.html>`_, so you don't need to submit your patch many repeated times. Run ``tox -e black-reformat`` to automate the formatting.
 
-#. Every patch needs a `topfile news fragment </content/pages/ReviewProcess.html#newsfiles>`_ to tell the user what was changed
+#. Every patch needs a `topfile news fragment </sphinxwiki/content/pages/ReviewProcess.html#newsfiles>`_ to tell the user what was changed
 
 #. Commit your changes 
      ``git commit -am "Changed some stuff"``
@@ -153,7 +153,7 @@ Here's a quick step-by-step guide to getting from an idea for an improvement to 
 
    #. Hit "submit changes".
 
-#. At this point, you need to wait for feedback.  If your patch is very good, very simple, and obviously correct, we may just apply it, but it is ''very unlikely'' that the f.html draft of a patch will be accepted as-is.  When a Twisted developer reviews your patch, they will re-assign the ticket to you; you can `see the list of tickets assigned to you by clicking here <http://twistedmatrix.com/trac/report/7>`_. Unfortunately, the time it takes us to deal with a ticket submitted for review is highly variable, and depends on how many other tickets are waiting review, the amount of free time that the Twisted core development team has, and how many resources we have available for `sponsored development <http://labs.twistedmatrix.com/>`_.
+#. At this point, you need to wait for feedback.  If your patch is very good, very simple, and obviously correct, we may just apply it, but it is ''very unlikely'' that the first draft of a patch will be accepted as-is.  When a Twisted developer reviews your patch, they will re-assign the ticket to you; you can `see the list of tickets assigned to you by clicking here <http://twistedmatrix.com/trac/report/7>`_. Unfortunately, the time it takes us to deal with a ticket submitted for review is highly variable, and depends on how many other tickets are waiting review, the amount of free time that the Twisted core development team has, and how many resources we have available for `sponsored development <http://labs.twistedmatrix.com/>`_.
 
 #. When you do receive a review comment, push changes to your branch which address that feedback, then place the ticket back in review.
 
@@ -165,7 +165,7 @@ Here's a quick step-by-step guide to getting from an idea for an improvement to 
 Getting Your Patch Accepted
 ---------------------------
 
-If you are interested in contributing to Twisted for the f.html time, consider working on an existing ticket rather than contributing a new feature.  Fixes for existing problems or implementations of already-requested features will generally take priority over new ideas.  Consider discussing the work you want to do with `other Twisted developers f.html </content/pages/Twisted/TwistedCommunity.html>`_.
+If you are interested in contributing to Twisted for the first time, consider working on an existing ticket rather than contributing a new feature.  Fixes for existing problems or implementations of already-requested features will generally take priority over new ideas.  Consider discussing the work you want to do with `other Twisted developers first </sphinxwiki/content/pages/Twisted/TwistedCommunity.html>`_.
 
 Familiarize yourself with project policies and coding standards and make sure your full contribution (code, test, documentation, design) adheres to it. See: `Policies <#policies>`__.
 
@@ -189,7 +189,7 @@ Command from this section assume that you run them from withing Twisted source c
 
 To run the tests, simply run `trial twisted`. Make sure you run trial command that comes with twisted source code and not the one provided by your operating system.
 
-To generate the narrative documentation or API documentation, see `the wiki page on Twisted documentation </content/pages/ReviewingDocumentation.html>`_.
+To generate the narrative documentation or API documentation, see `the wiki page on Twisted documentation </sphinxwiki/content/pages/ReviewingDocumentation.html>`_.
 
 After every commit to Twisted, the buildbot runs all the unit tests and reports `test results on several platforms <http://buildbot.twistedmatrix.com/>`_.  Here is a page showing only the `test results on supported platforms <http://buildbot.twistedmatrix.com/boxes-supported>`_. All tests on supported platforms always pass. Watch the buildbot. Because sometimes, the buildbot watches back.
 
@@ -233,7 +233,7 @@ A Twisted ticket can be of one of three types.
 
 * **Release blocker: release process bug** a ticket which blocks the release of the next Twisted version due to a problem/issue/defect in the release process itself.
 
-A ticket can have attached the following official tags `BugKeywords </content/pages/BugKeywords.html>`_.
+A ticket can have attached the following official tags `BugKeywords </sphinxwiki/content/pages/BugKeywords.html>`_.
 
 There are some UsefulQueries for finding issues in the tracker.
 
@@ -252,13 +252,13 @@ This series of documents is designed for people who wish to contribute to the Tw
 
 * `ReStructuredText and Sphinx <http://sphinx-doc.org/rest.html>`_ for narrative documentation.
 
-* `Security </content/pages/Security.html>`_
+* `Security </sphinxwiki/content/pages/Security.html>`_
 
 * `Philosophy <http://twistedmatrix.com/documents/current/core/development/philosophy.html>`_
 
-* `Review Process </content/pages/ReviewProcess.html>`_
+* `Review Process </sphinxwiki/content/pages/ReviewProcess.html>`_
 
-* `Contributor Advancement Path </content/pages/ContributorAdvancementPath.html>`_
+* `Contributor Advancement Path </sphinxwiki/content/pages/ContributorAdvancementPath.html>`_
 
 
 Wiki pages maintenance
@@ -268,7 +268,7 @@ Changes to wiki pages don't require a ticket.
 
 To prevent spam-bots, newly registered accounts don't have write access for wiki pages.
 
-If you want to edit wiki pages, ask for write permission via one of `community communication channel </content/pages/Twisted/TwistedCommunity.html>`_ . Please mention your Trac username.
+If you want to edit wiki pages, ask for write permission via one of `community communication channel </sphinxwiki/content/pages/Twisted/TwistedCommunity.html>`_ . Please mention your Trac username.
 
 
 Win32 development

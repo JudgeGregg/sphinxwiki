@@ -14,9 +14,9 @@ Note that the `example and howto documentation on the website <https://twistedma
 Editing example and howto documentation
 =======================================
 
-These narrative docs live in `reStructuredText <http://docutils.sourceforge.net.html.html>`_ (``.html``) files in subdirectories of `docs/ <https://github.com/twisted/twisted/tree/trunk/docs>`_. Twisted uses the document generator `Sphinx <https://sphinx.readthedocs.io/en/stable/>`_ to generate the HTML files you see on the web from these ``.html`` files. After adding your changes, it's important to review your changes for correctness and to preview how they will look on the website.
+These narrative docs live in `reStructuredText <http://docutils.sourceforge.net/rst.html>`_ (``.html``) files in subdirectories of `docs/ <https://github.com/twisted/twisted/tree/trunk/docs>`_. Twisted uses the document generator `Sphinx <https://sphinx.readthedocs.io/en/stable/>`_ to generate the HTML files you see on the web from these ``.html`` files. After adding your changes, it's important to review your changes for correctness and to preview how they will look on the website.
 
-#. If you haven't already, `create your Twisted work environment </content/pages/Twisted/TwistedDevelopment.html#creating-your-work-environment>`_.
+#. If you haven't already, `create your Twisted work environment </sphinxwiki/content/pages/Twisted/TwistedDevelopment.html#creating-your-work-environment>`_.
 
 #. Make sure you have the latest version of the code
 
@@ -32,14 +32,14 @@ This generates `docs/_build/core/howto/choosing-reactor.html`, which you can vie
 
 ``python -m webbrowser docs/_build/core/howto/choosing-reactor.html``
 
-If everything looks good, submit a patch to the `.html` as described `here </content/pages/Twisted/TwistedDevelopment.html#submitting-a-patch>`_.
+If everything looks good, submit a patch to the `.html` as described `here </sphinxwiki/content/pages/Twisted/TwistedDevelopment.html#submitting-a-patch>`_.
 
 Editing API Docs
 ================
 
 The API docs are generated from the doc strings in the code by `pydoctor <https://github.com/twisted/pydoctor>`_ , so to update what will be displayed in the API docs just update the doc strings. After making your changes, generate a test set of API docs to preview how they will look.
 
-#. If you haven't already, `create your Twisted work environment </content/pages/Twisted/TwistedDevelopment.html#creating-your-work-environment>`_.
+#. If you haven't already, `create your Twisted work environment </sphinxwiki/content/pages/Twisted/TwistedDevelopment.html#creating-your-work-environment>`_.
 
 #. Make sure you have the latest version of the code
 
@@ -55,9 +55,9 @@ The above produces a folder called `apidocs` in your current working directory. 
 
 ``python -m webbrowser apidocs/index.html``
 
-If everything looks good, submit a patch as described `here </content/pages/Twisted/TwistedDevelopment.html#submitting-a-patch>`_.
+If everything looks good, submit a patch as described `here </sphinxwiki/content/pages/Twisted/TwistedDevelopment.html#submitting-a-patch>`_.
 
 More
 ====
 
-See also `DocumentationAnalysis </content/pages/Documentation/Analysis/DocumentationAnalysis.html>`_ from an old Twisted documentation sprint.
+See also `DocumentationAnalysis </sphinxwiki/content/pages/Documentation/Analysis/DocumentationAnalysis.html>`_ from an old Twisted documentation sprint.

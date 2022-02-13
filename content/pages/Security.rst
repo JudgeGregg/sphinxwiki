@@ -24,7 +24,7 @@ This process is intended as a helpful recommendation; elements of it may be foll
 
 #. Begin by filing a ticket which does not describe the issue and simply says 'security issue, description pending' and has the 'security' keyword.
 
-#. Unfortunately, we are not aware of a way to securely transmit our code to our public continuous integration systems and our code review process on Github without making the branch public.  To minimize the time that this branch is available, perform some notifications f.html via private email.
+#. Unfortunately, we are not aware of a way to securely transmit our code to our public continuous integration systems and our code review process on Github without making the branch public.  To minimize the time that this branch is available, perform some notifications first via private email.
 
   #. Try to find a reviewer ahead of time; agree upon a time to do the review, and push your code up such that continuous integration will be roughly complete by the time they're looking at it (roughly an hour in advance).
 
@@ -34,7 +34,7 @@ This process is intended as a helpful recommendation; elements of it may be foll
 
 #. Backport the patch and perform the security release of the most recently released version.
 
-Aside from hiding the details of the issue while development is ongoing, all of the normal policies apply; security fixes require unit tests, etc.  See `ReviewProcess </content/pages/ReviewProcess.html>`_ for further details.
+Aside from hiding the details of the issue while development is ongoing, all of the normal policies apply; security fixes require unit tests, etc.  See `ReviewProcess </sphinxwiki/content/pages/ReviewProcess.html>`_ for further details.
 
 Our PGP key
 ===========

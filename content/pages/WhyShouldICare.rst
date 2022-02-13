@@ -25,5 +25,5 @@ The Proof
 
 Okay, you've made all these claims, but where's the proof?
 
-* `Success Stories </content/pages/SuccessStories.html>`_ - See what others say about Twisted
-* `Software that uses Twisted </content/pages/ProjectsUsingTwisted.html>`_ - See who uses Twisted
+* `Success Stories </sphinxwiki/content/pages/SuccessStories.html>`_ - See what others say about Twisted
+* `Software that uses Twisted </sphinxwiki/content/pages/ProjectsUsingTwisted.html>`_ - See who uses Twisted

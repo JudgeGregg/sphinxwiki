@@ -9,7 +9,7 @@ Twisted is used by many open-source, academic and commercial projects.
 Community Code Project
 ======================
 
-`Twisted Community Code <https://launchpad.net/tx>`_  - This is a `super project </content/pages/CommunityCode.html>`_ hosting or mirroring many Twisted add-ons, Twisted-based libraries, etc., that are not part of the Twisted Project proper, but depend upon it.
+`Twisted Community Code <https://launchpad.net/tx>`_  - This is a `super project </sphinxwiki/content/pages/CommunityCode.html>`_ hosting or mirroring many Twisted add-ons, Twisted-based libraries, etc., that are not part of the Twisted Project proper, but depend upon it.
 
 Libraries and Add-Ons
 =====================
@@ -144,4 +144,4 @@ Research Projects
  * `pyGridWare @ Lawrence Berkeley National Labs <http://dsd.lbl.gov/gtg/projects/pyGridWare/>`_ is a Python implementation of the WS-Resource framework. It includes support for WS-Addressing, WS-Notification, WS-Lifetime management, and WS-Security. 
  * `VIFF @ University of Aarhus, Denmark <http://viff.dk/>`_ is an open source Python library for implementing secure multi-party computation.
  * Dharma @ UPenn: Distributed Home Agent for Robust Mobile Access.
- * PySense @ MIT is an open source python library devoted to f.html person sensing for robots and wearables.
+ * PySense @ MIT is an open source python library devoted to first person sensing for robots and wearables.

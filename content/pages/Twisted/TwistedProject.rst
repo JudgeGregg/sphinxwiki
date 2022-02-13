@@ -4,14 +4,14 @@ Twisted
 
 Twisted is a networking engine written in Python, supporting numerous protocols.  It contains a web server, numerous chat clients, chat servers, mail servers, and more.
 
-Twisted is made up of a number of sub-projects which can be accessed individually through the `twisted projects index </content/pages/Twisted/TwistedProjects.html>`_.
+Twisted is made up of a number of sub-projects which can be accessed individually through the `twisted projects index </sphinxwiki/content/pages/Twisted/TwistedProjects.html>`_.
 
 Twisted is available under the `MIT Free Software licence <http://www.opensource.org/licenses/mit-license.php>`_.
 
 Downloads
 =========
 
-See the `Downloads </content/pages/Downloads.html>`_ page.
+See the `Downloads </sphinxwiki/content/pages/Downloads.html>`_ page.
 
 Documentation
 =============

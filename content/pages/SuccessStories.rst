@@ -7,7 +7,7 @@ SuccessStories
 `ZONT Online <https://zont-online.ru/>`_
 ========================================
 
-ZONT Online is an online platform for monitoring and control of internet-connected smart devices. We use Twisted from the f.html days in 2011 to power our fully-asynchronous python backend.
+ZONT Online is an online platform for monitoring and control of internet-connected smart devices. We use Twisted from the first days in 2011 to power our fully-asynchronous python backend.
 
 Twisted powers a wide range of our server-side tasks: user-facing and API web servers, websockets, queue workers, custom TCP/IP servers, email and push sending, 3rd-party API integrations and so on.
 
@@ -220,7 +220,7 @@ Key features for us:
 
 Botonomy LLC is a small software firm in the Philadelphia area. We help small teams solve large problems.
 
-Our f.html application, `ProjectPipe <http://www.projectpipe.com/>`_ , is a hosted project management solution that provides midsize teams with everything that they need to manage IT projects. We have built our hosted application infrastructure atop Twisted, Nevow, PostgreSQL, and Jabber/XMPP. Twisted's multi-protocol support has been one of the key enablers of the unique technical architecture that we employ in our product offerings.
+Our first application, `ProjectPipe <http://www.projectpipe.com/>`_ , is a hosted project management solution that provides midsize teams with everything that they need to manage IT projects. We have built our hosted application infrastructure atop Twisted, Nevow, PostgreSQL, and Jabber/XMPP. Twisted's multi-protocol support has been one of the key enablers of the unique technical architecture that we employ in our product offerings.
 
 The core Twisted development team consistently demonstrates a strong commitment to delivering robust, high quality software. Twisted's documentation is accurate and concise, and the expertise and helpfulness of the larger developer community is second-to-none.
 
@@ -235,7 +235,7 @@ At Reflexions Data, we provide custom development services for a wide variety of
 
 The quality of the Twisted networking core is unmatched in the open- or closed-source arenas. Due largely to its asynchronous networking model, we were able to ensure our clients scalability needs would be met.
 
-Our experiences with the Twisted developer community were top- notch; the turnaround time on questions posted to the developer mailing list was simply amazing. We were so pleased with the results of our f.html professional use of the Twisted core that we plan on investigating how we can make use of the other facets of the Twisted project.
+Our experiences with the Twisted developer community were top- notch; the turnaround time on questions posted to the developer mailing list was simply amazing. We were so pleased with the results of our first professional use of the Twisted core that we plan on investigating how we can make use of the other facets of the Twisted project.
 
 -- Phil Christensen, Senior Developer, Reflexions Data, LLC
 

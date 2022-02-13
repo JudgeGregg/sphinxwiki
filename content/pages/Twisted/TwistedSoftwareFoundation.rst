@@ -19,7 +19,7 @@ Our goals are simple: we want to be able to continue improving Twisted -- everyt
 Sponsors
 ========
 
-For a list of our current sponsors, visit here `out sponsorship page </content/pages/Twisted/TwistedSponsors.html>`_.
+For a list of our current sponsors, visit here `out sponsorship page </sphinxwiki/content/pages/Twisted/TwistedSponsors.html>`_.
 
 Benefits of Sponsorship
 =======================

@@ -31,7 +31,7 @@ The Matrix
      Calabi–Yau manifold-pipes
   **Andrew "spiv" Bennetts** : andrew (at) bemusement.org
      glockenspiel
-  **Itamar "itamar" Turner-Trauring** : itamar (at) itam.html.org
+  **Itamar "itamar" Turner-Trauring** : itamar (at) itamarst.org
      alto recorder
   **Stephen "jerub" Thorne**: jerub (at) twistedmatrix.com
      trumpet
